@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+function EstadoAHijo
+
 export default class Estado extends Component {
     constructor(props) {
         super(props);
