@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { Component } from "react";
 
 export default class RenderizadoElementos extends Component {
@@ -17,15 +16,6 @@ export default class RenderizadoElementos extends Component {
                 <ol>
                     {this.state.seasons.map(el => <li>{el}</li>)}
                 </ol>
-=======
-import React, {Component} from "react";
-
-export default class RenderizadoElementos extends Component {
-    render(){
-        return(
-            <div>
-                <h2>Renderizado de elementos</h2>
->>>>>>> 5875dd30c1228b4c6c0bd7653fb4362016e29975
             </div>
         )
     }
