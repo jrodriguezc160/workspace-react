@@ -12,7 +12,7 @@ export default class Estado extends Component {
         return (
             <div>
                 <h2>State (estado)</h2>
-                <p>{this.state</p>
+                <p>{this.state.contador}</p>
             </div>
         )
     }
