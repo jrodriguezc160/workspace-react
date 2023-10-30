@@ -11,7 +11,7 @@ export default function Propiedades(props) {
                 <li>{props.numero}</li>
                 <li>{props.booleano ? "Verdadero" : "Falso"}</li>
                 <li>{props.arreglo.join(", ")}</li>
-                <li>{props.objetos.nombre + " - " + props.objeto.apellido}</li>
+                <li>{props.objeto.nombre + " - " + props.objeto.apellido}</li>
                 <li>{props.arreglo.map(props.funcion).join(", ")}</li>
                 <li>{props.elementoReact}</li>
                 <li>{props.componenteReact}</li>
