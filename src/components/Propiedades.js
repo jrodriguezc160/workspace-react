@@ -4,12 +4,11 @@ import PropTypes from "prop-types";
 export default function Propiedades(props) {
     return (
         <div>
-            <h2>Props.porDefecto</h2>
-
+            <h2>{props.porDefecto}</h2>
             <ul>
                 <li>{props.cadena}</li>
                 <li>{props.numero}</li>
-                <li>{props.booleano ? "Verdadero" : "Falso"}</li>
+                <li>{props.boolean ? "Verdadero" : "Falso"}</li>
                 <li>{props.arreglo.join(", ")}</li>
                 <li>{props.objeto.nombre + " - " + props.objeto.apellido}</li>
                 <li>{props.arreglo.map(props.funcion).join(", ")}</li>
@@ -25,5 +24,5 @@ Propiedades.defaultProps = {
 }
 
 Propiedades.propTypes = {
-    numero: PropTypes.number.isRequired
+    numero: PropTypes.number.isRequired,
 }
