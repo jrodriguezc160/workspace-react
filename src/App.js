@@ -19,6 +19,7 @@ export default function App() {
           objeto={{ nombre: "Eduardo", apellido: "Camavinga" }}
           funcion={num => num * num}
           elementoReact={<i>Esto es un elemento React</i>}
+          componenteReact={<Componente msg="Soy un componente pasado como Prop" />}
         />
       </section>
     </div>

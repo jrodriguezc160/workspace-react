@@ -12,6 +12,7 @@ export default function Propiedades(props) {
                 <li>{props.objeto.nombre + " - " + props.objeto.apellido}</li>
                 <li>{props.arreglo.map(props.funcion).join(", ")}</li>
                 <li>{props.elementoReact}</li>
+                <li>{props.componenteReact}</li>
             </ul>
         </div>
     )
