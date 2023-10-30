@@ -1,5 +1,13 @@
-<<<<<<< HEAD
 import React, { Component } from "react";
+import data from "../helpers/data.json";
+
+function ElementoLista(props) {
+    return (
+        <li>
+            <a href={props.el.web} target="_blank">{props.el.name}</a>
+        </li>
+    )
+}
 
 export default class RenderizadoElementos extends Component {
     constructor(props) {
@@ -10,22 +18,20 @@ export default class RenderizadoElementos extends Component {
     }
 
     render() {
+        console.log(data)
         return (
             <div>
                 <h2>Renderizado de elementos</h2>
                 <h4>Estaciones del año</h4>
                 <ol>
-                    {this.state.seasons.map(el => <li>{el}</li>)}
+                    {this.state.seasons.map((el, index) => <li key={index}>{el}</li>)}
                 </ol>
-=======
-import React, {Component} from "react";
-
-export default class RenderizadoElementos extends Component {
-    render(){
-        return(
-            <div>
-                <h2>Renderizado de elementos</h2>
->>>>>>> 5875dd30c1228b4c6c0bd7653fb4362016e29975
+                <h3>Frameworks Frontend JavaScript</h3>
+                <ul>
+                    {
+                        data.frameworks.map((el) => <ElementoLista key={el.id} el={el} />)
+                    }
+                </ul>
             </div>
         )
     }
