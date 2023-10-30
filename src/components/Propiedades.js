@@ -21,3 +21,5 @@ export default function Propiedades(props) {
 Propiedades.defaultProps = {
     porDefecto: "Las props"
 }
+
+Propiedades.propTyp
