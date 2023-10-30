@@ -13,7 +13,6 @@ export default function App() {
       <section>
         <Componente msg="Hola, soy un componente funcional expresado desde una prop" />
         <Propiedades
-<<<<<<< HEAD
           cadena={"Esto es una cadena de texto"}
           numero={19}
           booleano={true}
@@ -22,15 +21,6 @@ export default function App() {
           funcion={num => num * num}
           elementoReact={<i>Esto es un elemento React</i>}
           componenteReact={<Componente msg="Soy un componente pasado como prop" />}
-=======
-          cadena="Esto es una cadena de texto"
-          numero={19} boolean={true}
-          arreglo={[1, 2, 3]}
-          objeto={{ nombre: "Eduardo", apellido: "Camavinga" }}
-          funcion={num => num * num}
-          elementoReact={<i>Esto es un elemento React</i>}
-          componenteReact={<Componente msg="Soy un componente pasado como Prop" />}
->>>>>>> 823eaee695331cb4fd5c45fc0e2fac5c7ca27724
         />
       </section>
     </div>
