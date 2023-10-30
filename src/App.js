@@ -3,10 +3,12 @@ import React from "react";
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
 
 export default function App() {
   return (
     <div className="App">
+      <br></br>
       <h1>Hola React</h1>
       <h2>Mi primera toma de contacto con React desde un repositorio de Sandbox!!!</h2>
       <br />
@@ -25,6 +27,8 @@ export default function App() {
         />
         <hr/>
         <Estado/>
+        <hr/>
+        <RenderizadoCondicional/>
       </section>
     </div>
   );
