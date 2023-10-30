@@ -2,6 +2,7 @@ import "./styles.css";
 import React from "react";
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
+import Estado from "./components/Estado";
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
           elementoReact={<i>Esto es un elemento React</i>}
           componenteReact={<Componente msg="Soy un componente pasado como prop" />}
         />
+        <hr/>
+        <Estado/>
       </section>
     </div>
   );
