@@ -1,6 +1,7 @@
 import "./styles.css";
 import React from "react";
 import Componente from "./components/Componente";
+import Propiedades from "./components/Propiedades";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <br/>
       <section>
         <Componente msg="Hola, soy un componente funcional expresado desde una prop"/>
+        <Propiedades></Propiedades>
       </section>
     </div>
   );
