@@ -19,7 +19,7 @@ export default class RenderizadoElementos extends Component {
 
     render() {
         console.log(data)
-        return (
+        return (    
             <div>
                 <h2>Renderizado de elementos</h2>
                 <h4>Estaciones del año</h4>
