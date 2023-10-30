@@ -7,8 +7,10 @@ export default function App() {
     <div className="App">
       <h1>Hola React</h1>
       <h2>Mi primera toma de contacto con React desde un repositorio de Sandbox!!!</h2>
+      <br/>
+      <br/>
       <section>
-        <Componente></Componente>
+        <Componente msg="Hola, soy un componente desde una prop"/>
       </section>
     </div>
   );
