@@ -25,13 +25,10 @@ export default function App() {
           elementoReact={<i>Esto es un elemento React</i>}
           componenteReact={<Componente msg="Soy un componente pasado como prop" />}
         />
-        <hr/>
-        <Estado/>
-<<<<<<< HEAD
-        <hr/>
-=======
->>>>>>> 916aeb73433bfd5ed6b8a215c3969314c5f66fb5
-        <RenderizadoCondicional/>
+        <hr />
+        <Estado />
+        <hr />
+        <RenderizadoCondicional />
       </section>
     </div>
   );
