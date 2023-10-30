@@ -4,6 +4,7 @@ import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import RenderizadoElementos from "./components/RenderizadoElementos";
 
 export default function App() {
   return (
@@ -29,6 +30,8 @@ export default function App() {
         <Estado />
         <hr />
         <RenderizadoCondicional />
+        <hr />
+        <RenderizadoElementos />
       </section>
     </div>
   );
