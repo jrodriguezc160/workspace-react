@@ -27,7 +27,10 @@ export default function App() {
         />
         <hr/>
         <Estado/>
+<<<<<<< HEAD
         <hr/>
+=======
+>>>>>>> 916aeb73433bfd5ed6b8a215c3969314c5f66fb5
         <RenderizadoCondicional/>
       </section>
     </div>
