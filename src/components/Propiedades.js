@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function Propiedades(props) {
     return (
@@ -22,4 +23,6 @@ Propiedades.defaultProps = {
     porDefecto: "Las props"
 }
 
-Propiedades.propTyp
+Propiedades.propTypes = {
+    numero: PropTypes.number.isRequired,
+}
