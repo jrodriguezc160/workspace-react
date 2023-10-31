@@ -5,6 +5,10 @@ class Reloj extends Component {
         super(props);
     }
 
+    componentWillUnmount() {
+        console.log(3, "El componente ha sido eliminado del DOM")
+    }
+
     render() {
         return (
             <h3>{this.props.hora}</h3>
@@ -34,10 +38,6 @@ export default class CicloVida extends Component {
         console.log(2, "El estado o las props del componente han cambiado")
         console.log(prevProps)
         console.log(prevState)
-    }
-
-    componentWillUnmount() {
-        console.log(3, "El componente ha sido eliminado del DOM")
     }
 
     tictac = () => {
