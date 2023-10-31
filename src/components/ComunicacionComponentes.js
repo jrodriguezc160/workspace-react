@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 export default class Padre extends Component {
-<<<<<<< HEAD
 
     state = {
         contador: 0,
@@ -13,8 +12,6 @@ export default class Padre extends Component {
         })
     }
 
-=======
->>>>>>> 8ab83d3b6bab8d51a314f9d41b3a5221b4f9592b
     render() {
         return (
             <>
