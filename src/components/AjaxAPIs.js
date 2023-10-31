@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+/*
+ * Usamos Ajax y APIs con la API de Pokémon
+ */
+
 function Pokemon(props) {
     return (
         <figure>
