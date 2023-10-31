@@ -28,6 +28,7 @@ export class EventosES6 extends Component {
         })
     }
 
+<<<<<<< HEAD
     render() {
         return (
             <div>
@@ -68,6 +69,8 @@ export class EventosES7 extends Component {
         })
     }
 
+=======
+>>>>>>> 3bc01ed8f129e5768e4f27aa6009d1d2b3887a54
     render() {
         return (
             <div>
@@ -75,6 +78,10 @@ export class EventosES7 extends Component {
                 <nav>
                     <button onClick={this.restar}>-</button>
                     <button onClick={this.sumar}>+</button>
+<<<<<<< HEAD
+=======
+                    <button onClick={this.restar}>-</button>
+>>>>>>> 3bc01ed8f129e5768e4f27aa6009d1d2b3887a54
                 </nav>
 
                 <h3>{this.state.contador}</h3>
