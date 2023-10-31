@@ -91,10 +91,25 @@ export class EventosES7 extends Component {
 // Eventos personalizados
 
 export class MasSobreEventos extends Component {
-    render(){
-        return(
+
+    handleClick = (e, mensaje) => {
+        console.log(e)
+        console.log(e.nativeEvent)
+        console.log(e.target)
+        console.log(e.nativeEvent.target)
+        console.log(mensaje)
+    }
+
+    render() {
+        return (
             <div>
                 <h2>Más sobre eventos</h2>
+
+                <button onClick={(e) =>
+                    this.handleClick(e, "Hola, pasando un parámetro desde un evento")
+                }>
+                    Saludar
+                </button>
             </div>
         )
     }
