@@ -90,13 +90,20 @@ export class EventosES7 extends Component {
     Eventos sintéticos
     Eventos personalizados */
 
-/* function Boton(props) {
-    return (<button onClick={props.myOnClick}>Botón hecho componente</button>)
-} */
 
-const Boton = (props) => (
+/* Formas de declarar el componente Boton:
+
+   function Boton(props) {
+    return (<button onClick={props.myOnClick}>Botón hecho componente</button>)
+} 
+
+   const Boton = (props) => (
     <button onClick={props.myOnClick}>Botón hecho componente</button>
-)
+) */
+
+const Boton = ({myOnClick}) => (
+    <button onClick={myOnClick}>Botón hecho componente</button>
+) 
 
 export class MasSobreEventos extends Component {
 
