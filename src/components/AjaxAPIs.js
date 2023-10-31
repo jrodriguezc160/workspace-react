@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+/*
+ * Usamos Ajax y APIs con la API de Pokémon
+ */
+
 function Pokemon(props) {
     return (
         <figure>
@@ -20,12 +24,12 @@ export default class AjaxAPIs extends Component {
         fetch(url)
             .then(res => res.json())
             .then(json => {
-                console.log(json);
+                // console.log(json);
                 json.results.forEach(el => {
                     fetch(el.url)
                         .then((res) => res.json())
                         .then(json => {
-                            console.log(json);
+                            // console.log(json);
                             let pokemon = {
                                 id: json.id,
                                 name: json.name,
