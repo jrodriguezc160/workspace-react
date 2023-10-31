@@ -28,7 +28,6 @@ export class EventosES6 extends Component {
         })
     }
 
-<<<<<<< HEAD
     render() {
         return (
             <div>
