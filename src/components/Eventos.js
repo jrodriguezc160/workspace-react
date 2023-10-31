@@ -82,3 +82,20 @@ export class EventosES7 extends Component {
         )
     }
 }
+
+
+
+// Más sobre eventos:
+// Eventos nativos
+// Eventos sintéticos
+// Eventos personalizados
+
+export class MasSobreEventos extends Component {
+    render(){
+        return(
+            <div>
+                <h2>Más sobre eventos</h2>
+            </div>
+        )
+    }
+}
