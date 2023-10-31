@@ -14,7 +14,7 @@ export default class Eventos extends Component {
         console.log("Sumando...");
         console.log(this);
         this.setState({
-            contador: this.state.contador++
+            contador: this.state.contador + 1
         })
     }
 
