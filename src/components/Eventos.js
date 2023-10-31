@@ -90,6 +90,10 @@ export class EventosES7 extends Component {
 // Eventos sintéticos
 // Eventos personalizados
 
+function Boton(props) {
+    return (<button onClick={props.myOnClick}>Botón hecho componente</button>)
+}
+
 export class MasSobreEventos extends Component {
 
     handleClick = (e, mensaje) => {
@@ -106,10 +110,14 @@ export class MasSobreEventos extends Component {
                 <h2>Más sobre eventos</h2>
 
                 <button onClick={(e) =>
-                    this.handleClick(e, "Hola, pasando un parámetro desde un evento")
-                }>
+                    this.handleClick(e, "Hola, pasando un parámetro desde un evento")}
+                >
                     Saludar
                 </button>
+
+                <Boton myOnClick={(e) =>
+                    this.handleClick(e, "Hola, pasando un parámetro desde un evento")}
+                />
             </div>
         )
     }
