@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// Mismo componente que en Eventos.js, menos código
 export default function ContadorHooks() {
 
     const [contador, setContador] = useState(0);
