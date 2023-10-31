@@ -26,8 +26,8 @@ export default class CicloVida extends Component {
     }
 
     detener = () => {
-        clearInterval(this.temporizador)
-    }
+        clearInterval(this.temporizador);
+    }    
 
     render() {
         console.log(4, "El componente se dibuja (o redibuja por algún cambio en el DOM")
