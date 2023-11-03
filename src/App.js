@@ -14,6 +14,9 @@ import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
 import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
+import Formularios from "./components/Formularios";
+import Estilos from "./components/Estilos";
 
 export default function App() {
   return (
@@ -69,6 +72,15 @@ export default function App() {
         <AjaxHooks />
         <hr />
         <HooksPersonalizados />
+        <hr />
+        <Referencias />
+        <hr />
+        <Formularios />
+        <hr />
+        <Estilos />
+        <br />
+        <br />
+        <br />
       </section>
     </div>
   );
