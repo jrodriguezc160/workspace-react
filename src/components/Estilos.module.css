@@ -1,0 +1,17 @@
+.error {
+  border: none;
+  border-radius: 2rem;
+  background-color: red;
+  margin: 1rem auto;
+  padding: 0.75rem 1.75rem;
+  width: fit-content;
+}
+
+.success {
+  border: none;
+  border-radius: 2rem;
+  background-color: green;
+  margin: 1rem auto;
+  padding: 0.75rem 1.75rem;
+  width: fit-content;
+}
